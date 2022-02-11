@@ -1,15 +1,16 @@
 {
-	"name": "request_header",
+	"name": "fcc_request_header",
 	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"description": "API Request Header project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "cross-env PORT=4000 node server.js"
 	},
 	"dependencies": {
-		"express": "^5.0.0-alpha.2",
 		"cors": "^2.8.1",
-		"dotenv": "^8.2.0"
+		"cross-env": "^7.0.3",
+		"dotenv": "^8.2.0",
+		"express": "^5.0.0-alpha.2"
 	},
 	"repository": {
 		"type": "git",
